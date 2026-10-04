@@ -6,17 +6,25 @@
 # Purpose: Practice adding and removing elements in list.
 # Usage: ./lab3d.py
 
-# Follow the specific instructions given in the README.md file
+# - Create a variable `mylist` that conatins  first 6 natural numbers.
+mylist = [1,2,3,4,5,6]
 
-# TODO 1: Create a list of 6 containing the values 1 through 6
+# - Use the `append()` method and add a new element, number 7 in the variable `mylis`t. 
+mylist.append(7)
 
-# TODO 2: Add the value 7 to the end of the list
+# - Use the `inser()` method and insert the element 0 at index 0.
+mylist.insert(0,0)
 
-# TODO 3: Add the value 0 to the beginning of the list
+# - Use the `pop()' method to remove the element from index 2.
+mylist.pop(2)
 
-# TODO 4: Remove the value 1 from the list
+# - Print the variable `mylist`.
+print(mylist)
 
-# TODO: Print out the entire list
-
-# TODO 6: Print out the index of the value 6 from within the list
+# - Add another statement in the script to find the index of the element 6 and print `The element 6 is present at the index ---`
+for i in mylist:
+    if i == 6:
+        # print(i) the element
+        # print(mylist[i]) Its index
+        print(f"The element 6 is present at the index {mylist[i]}")
 
