@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Rey Abbas
+# Date: 2026/10/04
 # Purpose: Practice adding and removing elements in list.
 # Usage: ./lab3d.py
 
