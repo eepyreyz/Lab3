@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Rey Abbas
+# Date: 2026/10/04
 # Purpose: 
 # Usage: ./lab3f.py
 
