@@ -1,18 +1,27 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
+# Author: Rey Abbas
 # Date:
 # Purpose: 
 # Usage: ./lab3g.py
 
-# Follow the specific instructions given in the README.md file
 
-# TODO 1: Create an empty list
+# - Create an empty list
+list = []
+# - Create a while loop that ends when your list size reaches 6
+userInput = 0
+# - Add numbers to your list using input
+# - Multiply the numbers by 10
+# - Print out the list in reverse order
 
-# TODO 2: Create a while loop with the condition of your list size being 6 elements
+while len(list) != 6 :
+    userInput = input("Enter a number: ")
+    userInput = int(userInput)
+    userInput *= 10
+    list.append(userInput)
+    #print(len(list))
+    #print(list)
 
-    # TODO 3: Add numbers to your list using input, where the input value is multiplied by 10
-    
-
-# TODO 4: Print out the list in reverse order 
+list.reverse()
+print(list)
